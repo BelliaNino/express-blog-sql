@@ -1,4 +1,5 @@
 import express from 'express';
+import './connection.js'
 import postsRouter from './routers/posts.js';
 
 const app = express()
